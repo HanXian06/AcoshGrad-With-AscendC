@@ -1,0 +1,10 @@
+{
+  "kernel.asc": "a20d3fb4a29a5d939c40713fde2b84f72aa6e0f0e18123a590e47d74bc602493",
+  "main.asc": "d31426d435f9d3d3f234949bd90e94f193d3a89b2c9114876af10972a869cc7f",
+  "CMakeLists.txt": "8d61148864e80d16f6d7128b145878903e885c6c2997742374bb5bd56ee25942",
+  "run.sh": "e33cba8cd2a237843ce6cb72541fc44371a2f27bc8c344c731207ec0206fe7a7",
+  "data_utils.h": "1bdaae93c09b65e2615691a39bfd611122c09668d90e21809c52516f443bfd84",
+  "scripts/AcoshGrad.py": "4024e14b0b94519449363ad073fb20f36ba6eb232c7cbad7934c7d1f9588096a",
+  "scripts/gen_data.py": "d2bdc406a17d61deb01edd1d27a4dc1e849968a0582dcafbe7ce18aadf9df2d1",
+  "scripts/verify_result.py": "e2353b76edd5fe8a02eeafdc3ef85f43975c2a5aaa7fc039f346e347d2f8fcad"
+}

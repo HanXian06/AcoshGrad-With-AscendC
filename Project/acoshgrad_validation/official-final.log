@@ -1,0 +1,34 @@
+Consolidate compiler generated dependencies of target acosh_grad_custom
+[ 50%] Building ASC object CMakeFiles/acosh_grad_custom.dir/main.asc.o
+/mnt/workspace/acoshgrad_1916_20261004/acoshgrad_problem_1916_template/main.asc:77:17: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+    run_kernel((GM_ADDR)inputDevice_y, info_y, (GM_ADDR)inputDevice_dy, info_dy, (GM_ADDR)outputDevice_z, info_z, availableCoreNum, stream);
+                ^~~~~~~
+/home/developer/Ascend/cann-9.0.0/aarch64-linux/tikcpp/tikcfw/impl/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/home/developer/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/mnt/workspace/acoshgrad_1916_20261004/acoshgrad_problem_1916_template/main.asc:77:49: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+    run_kernel((GM_ADDR)inputDevice_y, info_y, (GM_ADDR)inputDevice_dy, info_dy, (GM_ADDR)outputDevice_z, info_z, availableCoreNum, stream);
+                                                ^~~~~~~
+/home/developer/Ascend/cann-9.0.0/aarch64-linux/tikcpp/tikcfw/impl/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/home/developer/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+/mnt/workspace/acoshgrad_1916_20261004/acoshgrad_problem_1916_template/main.asc:77:83: warning: 'cce_global' attribute ignored when parsing type [-Wignored-attributes]
+    run_kernel((GM_ADDR)inputDevice_y, info_y, (GM_ADDR)inputDevice_dy, info_dy, (GM_ADDR)outputDevice_z, info_z, availableCoreNum, stream);
+                                                                                  ^~~~~~~
+/home/developer/Ascend/cann-9.0.0/aarch64-linux/tikcpp/tikcfw/impl/utils/kernel_utils_macros.h:23:17: note: expanded from macro 'GM_ADDR'
+#define GM_ADDR __gm__ uint8_t*
+                ^~~~~~
+/home/developer/Ascend/cann-9.0.0/tools/bisheng_compiler/lib/clang/15.0.5/include/__clang_cce_defines.h:61:31: note: expanded from macro '__gm__'
+#define __gm__ __attribute__((cce_global))
+                              ^~~~~~~~~~
+3 warnings generated.
+[100%] Linking ASC executable acosh_grad_custom
+[100%] Built target acosh_grad_custom
+PASSED: z.bin vs golden_z.bin
+  Max diff: 0.0

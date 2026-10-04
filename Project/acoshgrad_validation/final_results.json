@@ -1,0 +1,395 @@
+[
+  {
+    "dtype": "float32",
+    "n": 1,
+    "rank": 0,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=8.210 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 7,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 1.862645149230957e-09,
+    "passed": true,
+    "timing": "cores=40 mean_us=8.110 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 17,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 1.4901161193847656e-08,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.820 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 2047,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 9.5367431640625e-07,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.726 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 2048,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 9.5367431640625e-07,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.842 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 2049,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 4.76837158203125e-07,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.810 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 65537,
+    "rank": 8,
+    "matched_ratio": 1.0,
+    "max_abs_error": 1.9073486328125e-06,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.811 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 163839,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 9.5367431640625e-07,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.818 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 163840,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 1.9073486328125e-06,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.794 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 163841,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 1.9073486328125e-06,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.839 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 262151,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 9.5367431640625e-07,
+    "passed": true,
+    "timing": "cores=40 mean_us=7.164 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 1048576,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 9.5367431640625e-07,
+    "passed": true,
+    "timing": "cores=40 mean_us=7.414 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "n": 10485760,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 1.9073486328125e-06,
+    "passed": true,
+    "timing": "cores=40 mean_us=89.085 guard=OK"
+  },
+  {
+    "dtype": "float32",
+    "boundary": true,
+    "actual": [
+      "inf",
+      "-inf",
+      "nan",
+      "nan",
+      "0.0",
+      "-14.106914",
+      "0.20100756"
+    ],
+    "passed": true
+  },
+  {
+    "dtype": "float16",
+    "n": 1,
+    "rank": 0,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.845 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 7,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.856 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 17,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=8.215 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 2047,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=8.937 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 2048,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.828 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 2049,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.976 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 65537,
+    "rank": 8,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0001220703125,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.740 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 163839,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.000244140625,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.808 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 163840,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0001220703125,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.856 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 163841,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.000244140625,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.841 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 262151,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.000244140625,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.835 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 1048576,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.00048828125,
+    "passed": true,
+    "timing": "cores=40 mean_us=8.155 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "n": 10485760,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.00390625,
+    "passed": true,
+    "timing": "cores=40 mean_us=36.954 guard=OK"
+  },
+  {
+    "dtype": "float16",
+    "boundary": true,
+    "actual": [
+      "inf",
+      "-inf",
+      "nan",
+      "nan",
+      "0.0",
+      "-14.2734375",
+      "0.2010498"
+    ],
+    "passed": true
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 1,
+    "rank": 0,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.812 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 7,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.830 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 17,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.843 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 2047,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.840 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 2048,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.830 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 2049,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.845 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 65537,
+    "rank": 8,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0009765625,
+    "passed": true,
+    "timing": "cores=40 mean_us=8.270 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 163839,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0009765625,
+    "passed": true,
+    "timing": "cores=40 mean_us=8.150 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 163840,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0009765625,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.675 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 163841,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0009765625,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.838 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 262151,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0009765625,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.745 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 1048576,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0009765625,
+    "passed": true,
+    "timing": "cores=40 mean_us=6.879 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "n": 10485760,
+    "rank": 2,
+    "matched_ratio": 1.0,
+    "max_abs_error": 0.0009765625,
+    "passed": true,
+    "timing": "cores=40 mean_us=38.194 guard=OK"
+  },
+  {
+    "dtype": "bfloat16",
+    "boundary": true,
+    "actual": [
+      "inf",
+      "-inf",
+      "nan",
+      "nan",
+      "0.0",
+      "-16.0",
+      "0.20117188"
+    ],
+    "passed": true
+  }
+]
